@@ -9,12 +9,14 @@ Dirancang agar mudah dijalankan di Termux (Android).
 - Bisa membaca dari stdin sehingga nyaman dipipe
 
   
-example(jika program sudah berjalan)
+## example(jika program sudah berjalan)
 
- $ python3 textbin.py encode "Hi!"
+ $ python3 textbin.py "Hi!"
 
 01001000 01101001 00100001
 
-$ python3 textbin.py decode "010010000110100100100001"
+$ python3 textbin.py 
+
+"010010000110100100100001"
 
 Hi!
